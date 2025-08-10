@@ -3,4 +3,3 @@
 #3)გადაიმეორეთ input and output თავი Sololearn-ში : https://www.sololearn.com/en/learn/courses/python-introduction/lesson/4169935210?p=1
 #4)უყურეთ დღევანდელ ჩანაწერს აუცილებლად
 #5)გააკეთეთ Sololearn სურათში  მოცემული თავები
-

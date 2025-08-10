@@ -1,0 +1,23 @@
+<!-- გააკეთეთ ფორმა რომელიც იქნება შეკვეთის გაგზავნის იმიტაცია , ჩართეთ თქვენი ფანტაზია შეზღუდულები არ ხართ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order</title>
+</head>
+<body>
+  <nav>
+    <a href="hw4order.html">Order</a> |
+    <a href="hw4thanks.html">Thanks</a>
+  </nav>
+
+  <h2>Place Your Order</h2>
+  <form action="hw4thanks.html" method="get">
+    <input type="text" name="fullname" placeholder="Full Name" required><br><br>
+    <input type="text" name="product" placeholder="Product Name" required><br><br>
+    <input type="number" name="quantity" placeholder="Quantity" min="1" value="1"><br><br>
+    <textarea name="address" placeholder="Delivery Address" rows="3" required></textarea><br><br>
+    <button type="submit">Send Order</button>
+  </form>
+</body>
+</html>

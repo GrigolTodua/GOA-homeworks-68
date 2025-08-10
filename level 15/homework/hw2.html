@@ -1,0 +1,28 @@
+<!-- თავენი სიტყვებით აღწერეთ როგორ ხდება label და input ველების დაკავშრება ერთმანეთთან ,
+ასევე ახსენით ისიც თუ რატომ არის კარგი პრაქტიკა მათი ერთმანეთთანდაკავშირება -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signup</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form action="login.html" method="get">
+    <input type="text" name="username" placeholder="Username" required><br><br>
+    <input type="email" name="email" placeholder="Email" required><br><br>
+    <input type="password" name="password" placeholder="Password" required><br><br>
+
+    <p>Gender:</p>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br><br>
+
+    <button type="submit">Register</button>
+  </form>
+  <p>Already have an account? <a href="login.html">Login here</a></p>
+</body>
+</html>
+
